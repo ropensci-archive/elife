@@ -1,4 +1,4 @@
-Package: relife
+Package: elife
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"),
     person("Eduard", "Szoecs", role = "aut",
@@ -10,8 +10,8 @@ Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
 Version: 0.0.1
 Date: 2013-01-23
 License: CC0
-Title: 
-Description: 
+Title: R interface to the eLife API.
+Description: R interface to the eLife API.
 Imports:
     XML,
     RCurl (>= 1.6),
