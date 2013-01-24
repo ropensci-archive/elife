@@ -1,5 +1,5 @@
-#' relife
+#' elife
 #' 
-#' @name relife
+#' @name elife
 #' @docType package
 NULL

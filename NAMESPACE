@@ -1,0 +1,7 @@
+export(elife_doi)
+export(elife_paper)
+export(searchelife)
+import(plyr)
+import(RCurl)
+import(RJSONIO)
+import(XML)

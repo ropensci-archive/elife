@@ -1,12 +1,29 @@
 Package: relife
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Author: ScottMac
-Version: 1.0
-License: GPL-3
+Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
+    email = "myrmecocystus@gmail.com"),
+    person("Eduard", "Szoecs", role = "aut",
+    email = "szoe8822@uni-landau.de"),
+    person("Carl", "Boettiger", role = "aut",
+    email = "cboettig@gmail.com"),
+    person("Ignasi", "Bartomeus", role = "aut",
+    email = "nacho.bartomeus@gmail.com"))
+Version: 0.0.1
+Date: 2013-01-23
+License: CC0
 Title: 
 Description: 
+Imports:
+    XML,
+    RCurl (>= 1.6),
+    stringr,
+    plyr,
+    httr (>= 0.2),
+    RJSONIO,
 Suggests:
     testthat,
     roxygen2
 Collate:
-    'relife-package.r'
+    'elife_doi.r'
+    'elife_paper.r'
+    'elife-package.r'
+    'searchelife.r'
