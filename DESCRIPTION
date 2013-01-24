@@ -1,12 +1,6 @@
 Package: elife
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
-    email = "myrmecocystus@gmail.com"),
-    person("Eduard", "Szoecs", role = "aut",
-    email = "szoe8822@uni-landau.de"),
-    person("Carl", "Boettiger", role = "aut",
-    email = "cboettig@gmail.com"),
-    person("Ignasi", "Bartomeus", role = "aut",
-    email = "nacho.bartomeus@gmail.com"))
+    email = "myrmecocystus@gmail.com"))
 Version: 0.0.1
 Date: 2013-01-23
 License: CC0
