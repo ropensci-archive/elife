@@ -5,7 +5,7 @@
 #' @param term2 or, and, etc.
 #' @param searchin what area to search in, see examples
 #' @param boolean what boolean to use, one of contain, matches, ...
-#' @param give What to give back as the result
+#' @param give What to give back as the result. For now just doi
 #' @examples \dontrun{
 #' # Simpler queries
 #' searchelife(terms="Cell biology", searchin="subject_area", boolean="contains")

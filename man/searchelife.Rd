@@ -15,7 +15,8 @@
   \item{boolean}{what boolean to use, one of contain,
   matches, ...}
 
-  \item{give}{What to give back as the result}
+  \item{give}{What to give back as the result. For now just
+  doi}
 }
 \description{
   Make an eLife API call.
