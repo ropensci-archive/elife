@@ -109,6 +109,30 @@ $`04da1702-87d6-41da-9067-39a055b529c8`
 
 #### Get full text of articles
 
-```coffee
+The raw XML
 
+```coffee
+elife_paper(doi="10.7554/eLife.00160", 'xml')
+```
+
+```coffee
+<?xml version="1.0"?>
+<article xmlns:hw="org.highwire.hpp" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:oasis="http://www.niso.org/standards/z39-96/ns/oasis-exchange/table" xmlns:ref="http://schema.highwire.org/Reference" xmlns:hwp="http://schema.highwire.org/Journal" xmlns:l="http://schema.highwire.org/Linking" xmlns:r="http://schema.highwire.org/Revision" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://www.w3.org/2005/Atom" xmlns:x="http://www.w3.org/1999/xhtml" xmlns:app="http://www.w3.org/2007/app" xmlns:nlm="http://schema.highwire.org/NLM/Journal" xmlns:c="http://schema.highwire.org/Compound" xmlns:hpp="http://schema.highwire.org/Publishing" article-type="research-article" xml:lang="en">
+  <front>
+    <journal-meta>
+```
+
+Just the abstract
+
+```coffee
+elife_paper(doi="10.7554/eLife.00160", 'abstract')
+```
+
+```coffee
+$doi
+[1] "http://dx.doi.org/10.7554/eLife.00160.001"
+
+$text
+$text[[1]]
+[1] "Planar cell polarity (PCP) requires the asymmetric sorting of distinct signaling receptors to distal and proximal surfaces of polarized epithelial cells. We have examined the transport of one PCP signaling protein, Vangl2, from the trans Golgi network (TGN) in mammalian cells. Using siRNA knockdown experiments, we find that the GTP-binding protein, Arfrp1, and the clathrin adaptor complex 1 (AP-1) are required for Vangl2 transport from the TGN. In contrast, TGN export of Frizzled 6, which localizes to the opposing epithelial surface from Vangl2, does not depend on Arfrp1 or AP-1. Mutagenesis studies identified a YYXXF sorting signal in the C-terminal cytosolic domain of Vangl2 that is required for Vangl2 traffic and interaction with the Î¼ subunit of AP-1. We propose that Arfrp1 exposes a binding site on AP-1 that recognizes the Vangl2 sorting motif for capture into a transport vesicle destined for the proximal surface of a polarized epithelial cell."
 ```
