@@ -16,8 +16,3 @@ Imports:
 Suggests:
     testthat,
     roxygen2
-Collate:
-    'elife_doi.r'
-    'elife_paper.r'
-    'elife-package.r'
-    'searchelife.r'

@@ -2,8 +2,7 @@
 \alias{searchelife}
 \title{Make an eLife API call.}
 \usage{
-  searchelife(terms, term2 = "or", searchin = NULL,
-    boolean, give = "doi")
+searchelife(terms, term2 = "or", searchin = NULL, boolean, give = "doi")
 }
 \arguments{
   \item{terms}{Search terms.}
@@ -19,7 +18,7 @@
   doi}
 }
 \description{
-  Make an eLife API call.
+Make an eLife API call.
 }
 \examples{
 \dontrun{

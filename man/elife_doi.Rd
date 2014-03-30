@@ -2,7 +2,7 @@
 \alias{elife_doi}
 \title{Get metadata on an article using a DOI, one to many.}
 \usage{
-  elife_doi(dois = NULL, ret = "all")
+elife_doi(dois = NULL, ret = "all")
 }
 \arguments{
   \item{dois}{A single doi or a vector of quoted DOIs.}
@@ -26,11 +26,11 @@
   pub_date_date}
 }
 \value{
-  Gives back a list of all metadata components unless you
-  specify which you want back, see examples below.
+Gives back a list of all metadata components unless you
+specify which you want back, see examples below.
 }
 \description{
-  Get metadata on an article using a DOI, one to many.
+Get metadata on an article using a DOI, one to many.
 }
 \examples{
 \dontrun{
@@ -40,7 +40,7 @@ elife_doi(dois="10.7554/eLife.00160")
 # one DOI, return just acknowledgements
 elife_doi(dois="10.7554/eLife.00160", ret="ack")
 
-# many DOIs
+#w many DOIs
 elife_doi(dois=c("10.7554/eLife.00160","10.7554/eLife.00248"), ret="article_type")
 
 # Search for articles using , then use DOIs in elife_doi call

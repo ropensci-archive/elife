@@ -23,7 +23,7 @@
 #' # one DOI, return just acknowledgements
 #' elife_doi(dois="10.7554/eLife.00160", ret="ack")
 #' 
-#' # many DOIs
+#' #w many DOIs
 #' elife_doi(dois=c("10.7554/eLife.00160","10.7554/eLife.00248"), ret="article_type")
 #' 
 #' # Search for articles using , then use DOIs in elife_doi call

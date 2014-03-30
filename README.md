@@ -1,16 +1,5 @@
 # `elife`
 
-### Installation
-
-elife is not on CRAN yet. Install using `install_github` with Hadley Wickham's devtools package.
-
-```R
-install.packages("devtools")
-require(devtools)
-install_github("elife", "rOpenSci")
-require(elife)
-```
-
 ### Info
 
 This set of functions/package will access full text articles and altmetrics from eLife using their API. 
@@ -20,6 +9,18 @@ eLife API documentation [here](http://dev.elifesciences.org/)
 elife is part of the [rOpenSci Project](http://ropensci.github.com)
 
 ### Quick start
+
+
+#### Installation
+
+elife is not on CRAN yet. Install using `install_github` with the devtools package
+
+```R
+install.packages("devtools")
+require(devtools)
+install_github("elife", "rOpenSci")
+require(elife)
+```
 
 #### Simple queries to get DOIs
 
@@ -108,4 +109,6 @@ $`04da1702-87d6-41da-9067-39a055b529c8`
 
 #### Get full text of articles
 
-**Coming soon...**
+```coffee
+
+```

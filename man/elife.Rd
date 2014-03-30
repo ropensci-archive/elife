@@ -4,6 +4,6 @@
 \alias{elife-package}
 \title{elife}
 \description{
-  elife
+elife
 }
 
