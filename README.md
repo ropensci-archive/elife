@@ -1,5 +1,7 @@
 # `elife`
 
+[![Build Status](https://api.travis-ci.org/ropensci/elife.png)](https://travis-ci.org/ropensci/elife)
+
 ### Info
 
 This set of functions/package will access full text articles and altmetrics from eLife using their API. 
