@@ -1,10 +1,11 @@
 # `elife`
 
 [![Build Status](https://api.travis-ci.org/ropensci/elife.png)](https://travis-ci.org/ropensci/elife)
+[![Build status](https://ci.appveyor.com/api/projects/status/yfx77750e2srg0ey/branch/master)](https://ci.appveyor.com/project/sckott/elife/branch/master)
 
 ### Info
 
-This set of functions/package will access full text articles and altmetrics from eLife using their API. 
+This set of functions/package will access full text articles and altmetrics from eLife using their API.
 
 eLife API documentation [here](http://dev.elifesciences.org/)
 
