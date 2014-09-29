@@ -6,7 +6,6 @@ before_script:
 - sudo apt-get update
 - "./travis-tool.sh bootstrap"
 - "./travis-tool.sh install_deps"
-- "./travis-tool.sh github_package assertthat"
 notifications:
   slack:
     secure: Xg20MNoF9jTGzVufTc8I+vgp65S3TsONoV3gHXrDnBSUKfJiOSn93PLlC2mLUSPAe/sZAq0beHpoNQ+TkCkDpnNqJ5rJLtXZkmMYZOdgw/vfR8Hlx4pYc3DP+HPdCZI+pIh1QBNndmy94Ik3wuSq0Xr9xCC06Nxr+KA+FAJyAtA=
