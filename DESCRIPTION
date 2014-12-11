@@ -2,7 +2,7 @@ Package: elife
 Authors@R: c(person("Scott", "Chamberlain", role = c("aut", "cre"),
     email = "myrmecocystus@gmail.com"))
 Version: 0.0.1
-Date: 2013-01-23
+Date: 2014-12-11
 License: CC0
 Title: R interface to the eLife API.
 Description: R interface to the eLife API.
