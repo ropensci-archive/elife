@@ -1,3 +1,5 @@
+[![Project Status: Unsupported – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.](http://www.repostatus.org/badges/latest/unsupported.svg)](http://www.repostatus.org/#unsupported)
+
 # `elife`
 
 <!-- [![Build Status](https://api.travis-ci.org/ropensci/elife.png)](https://travis-ci.org/ropensci/elife)
